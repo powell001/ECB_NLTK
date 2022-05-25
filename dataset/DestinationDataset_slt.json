@@ -9,6 +9,7 @@
 		"type": "AzureSqlTable",
 		"schema": [],
 		"typeProperties": {
+			"schema": "newyork",
 			"table": "Azure Blob Storage file"
 		}
 	}
