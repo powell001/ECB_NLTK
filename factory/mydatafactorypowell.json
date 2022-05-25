@@ -1,0 +1,9 @@
+{
+	"name": "mydatafactorypowell",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "581ac689-10db-4603-92bb-0d79e7564c10",
+		"tenantId": "431ba93c-dd09-492d-8784-c31ed4df4d06"
+	}
+}
