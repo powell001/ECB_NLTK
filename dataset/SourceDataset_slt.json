@@ -1,0 +1,19 @@
+{
+	"name": "SourceDataset_slt",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "blobtaxi"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
