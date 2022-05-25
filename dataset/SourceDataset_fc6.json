@@ -1,0 +1,20 @@
+{
+	"name": "SourceDataset_fc6",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "NYCTripSmall.parquet",
+				"container": "blobtaxi"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
